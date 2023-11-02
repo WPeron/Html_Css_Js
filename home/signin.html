@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Eletrônicos</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/aac1acd435.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+
+        <div class="header-content">
+
+            <div class="logomarca">
+                <a href="home.html" title="Home"><i class="fas fa-robot fa-xs" style="color: #000000;"></i></a>
+            </div>
+
+            <div class="section">
+                <a href="../sections/power.html" title="Section Power"><i>Power</i></a>
+            </div>
+
+            <div class="section">
+                <a href="../sections/phone.html" title="Section Phone"><i>Phone</i></a>
+            </div>
+
+            <div class="section">
+                <a href="../sections/transporte.html" title="Section Transporte"><i>Transporte</i></a>
+            </div>
+
+            <div class="section">
+                <a href="../sections/cabos.html" title="Section Cabos"><i>Cabos</i></a>
+                
+            </div>
+            <div class="section">
+                <a href="../sections/suporte.html" title="Section Suporte"><i>Suporte</i></a>
+            </div>
+            
+            <div class="logo">  
+                <a href="" title=""> <i class="fas fa-light fa-cart-shopping fa-2xs" style="color: #000000;"></i></a>
+            </div>
+
+            <div class="logo">  
+                <a href="" title=""><i class="fas fa-solid fa-user" style="color: #000000;"></i></a>
+            </div>
+
+        </div>
+
+    </header>
+   
+        <div class="container">
+          <div class="card">
+            <h1>Entrar</h1>
+    
+            <div id="msgError"></div>
+    
+            <div class="label-float">
+              <input type="text" id="usuario" paceholder="" required />
+              <label id="userLabel" for="usuario">Usuario</label>
+            </div>
+    
+            <div class="label-float">
+              <input type="password" id="senha" paceholder="" required />
+              <label id="senhaLabel" for="senha">Senha</label>
+              <i class="fa fa-eye" aria-hidden="true"></i>
+            </div>
+    
+            <div class="justify-center">
+              <button onclick="entrar()">Entrar</button>
+            </div>
+    
+            <div class="justify-center">
+              <hr />
+            </div>
+    
+            <p>
+              Não tem uma conta?
+              <a href="signup.html">
+                Cadastre-se
+              </a>
+            </p>
+          </div>
+        </div>
+
+        
+    <footer>
+        <p>&copy; 2023 Loja de Eletrônicos</p>
+    </footer>
+    <script src="../js/signin.js"></script>
+</body>
+</html>

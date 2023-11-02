@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Eletrônicos</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/aac1acd435.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+
+        <div class="header-content">
+
+            <div class="logomarca">
+                <a href="home.html" title="Home"><i class="fas fa-robot fa-xs" style="color: #000000;"></i></a>
+            </div>
+
+            <div class="section">
+                <a href="../sections/power.html" title="Section Power"><i>Power</i></a>
+            </div>
+
+            <div class="section">
+                <a href="../sections/phone.html" title="Section Phone"><i>Phone</i></a>
+            </div>
+
+            <div class="section">
+                <a href="../sections/transporte.html" title="Section Transporte"><i>Transporte</i></a>
+            </div>
+
+            <div class="section">
+                <a href="../sections/cabos.html" title="Section Cabos"><i>Cabos</i></a>
+                
+            </div>
+            
+            <div class="logo">  
+                <i onclick="alternarVisibilidade()" class="fas fa-light fa-cart-shopping fa-2xs" style="color: #000000;"></i>
+            </div>
+
+            <div class="logo">  
+                <a href="signin.html" title="Login"><i class="fas fa-solid fa-user" style="color: #000000;"></i></a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <div class="fundo">
+        <img src="../Images/Fundo.png" alt="Imagem de Fundo">
+       <!--  <h1 class="title">----</h1> -->
+    </div>
+
+    <section class="products">
+
+        <div class="product">
+            <img src="../Images/Capa01.png" alt="Capa de Silicone para Smartphone">
+            <h2>Capa de Silicone para Smartphone</h2>
+            <p>Proteja seu smartphone com estilo.</p>
+            <span class="price">R$ 29,99<br></span>
+            <button class="buy-button">Comprar</button>
+            <button class="buy-button">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="product">
+            <img src="../Images/Capa01.png" alt="Capa de Silicone para Smartphone">
+            <h2>Capa de Silicone para Smartphone</h2>
+            <p>Proteja seu smartphone com estilo.</p>
+            <span class="preco">R$ 29,99<br></span>
+            <button class="buy-button">Comprar</button>
+            <button class="buy-button">Adicionar ao Carrinho</button>
+        </div>  
+
+
+        <div class="product">
+            <img src="../Images/Capa01.png" alt="Capa de Silicone para Smartphone" class="img-item">
+            <h2 class="titulo-item">Capa de Silicone para Smartphone</h2>
+            <p>Proteja seu smartphone com estilo.</p>
+            <span class="preco">$29<br></span>
+            <button class="buy-button">Comprar</button>
+            <button class="buy-button" onclick="adicionarAoCarrinho(this)">Adicionar ao Carrinho</button>
+        </div>       
+    
+    <div class="carrinho" id="carrinho">
+        <div class="header-carrinho">
+            <h2>Carrinho</h2>
+        </div>
+
+        <div class="carrinho-items">
+        </div>
+
+        <div class="carrinho-total">
+            <div class="fila">
+                <strong>Total</strong>
+                <span class="carrinho-preco-total">
+                   
+                </span>
+            </div>
+            <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+        </div>
+    </div>
+
+
+    
+    
+    </section>
+
+   
+    <footer>
+        <p>&copy; 2023 Loja de Eletrônicos</p>
+    </footer>
+    <script src="../js/app.js"></script>
+</body>
+</html>
